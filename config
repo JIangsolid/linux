@@ -4,14 +4,14 @@
 2、软件源：
                     sudo software-properties-gtk
 3、安装elementary-tweaks:
-                    sudo add-apt-respository ppa:philip.scott/elementary-tweaks
+                    sudo add-apt-repository ppa:philip.scott/elementary-tweaks
                     sudo apt update
                     sudo apt install elementary-tweaks
 4、安装系统监视器：
                     sudo apt install gnome-system-monitor
 5、安装中文输入法：    
                     sudo apt remove ibus scim
-                    sudo install fcitx fcitx-config-gtk fcitx-googlepinyin
+                    sudo apt install fcitx fcitx-config-gtk fcitx-googlepinyin
                     sudo im-config -s fcitx -z default
 主题sweet
 图标suru
