@@ -13,8 +13,8 @@
                     sudo apt remove ibus scim
                     sudo apt install fcitx fcitx-config-gtk fcitx-googlepinyin
                     sudo im-config -s fcitx -z default
-主题sweet
-图标suru
+主题sweet\Sweet-Ambar-Blue.tar.xz
+图标suru\La Capitaine 下载人数最多的
 
 安装albert
 
