@@ -37,3 +37,21 @@ sudo apt update
 sudo echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/Debian_Testing/ /' > /etc/apt/sources.list.d/home:manuelschneid3r.list
 sudo apt update
 sudo apt install albert
+
+更改Termianl
+1、在Appcenter中安装gnome-termianl
+2、 sudo nano /usr/share/applications/gnome-terminal.desktop 
+  将这行注释掉
+  #OnlyShowIn=GNOME;Unity;
+  在这里面添加最后一行
+  [Desktop Action new-window]
+  Name=New Terminal
+  Exec=gnome-terminal
+  NoDisplay=true（将gnome-terminal固定到任务栏后添加这一行）
+3、在应用商店中卸载terminal
+4、安装dconf对系统文件进行修改
+org>gnome>desktop>applications>termianl
+exec修改成gnome-terminal
+exec-arg 修改成空
+
+
