@@ -54,4 +54,10 @@ org>gnome>desktop>applications>termianl
 exec修改成gnome-terminal
 exec-arg 修改成空
 
+applications
+
+ieaseMusic:
+          https://github.com/trazyn/ieaseMusic/releases
+cocomusic:
+          https://github.com/xtujser/cocomusic
 
